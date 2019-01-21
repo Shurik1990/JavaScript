@@ -21,9 +21,9 @@
 					<h2>Задача №1</h2>
 					<script>
 						var days = 365;
-						var planet = 'Земля';
-						var people = '7 млрд.';
-						var sun = 'Солнца';
+						var planet = "Земля";
+						var people = "7 млрд.";
+						var sun = "Солнца";
 						document.write("<p>Мы живем на планете " + planet + ", она делает один оборот вокруг " + sun + " за " + days + " дней. Население нашей планеты составляет примерно " + people + " человек.</p>");
 					</script>
 				</section>
@@ -53,7 +53,7 @@
 				<section id="block3">
 					<h2>Задача №3</h2>
 					<script>
-						var countries = ['Украина', 'Болгария', 'Турция', 'США', 'Россия'];
+						var countries = ["Украина", "Болгария", "Турция", "США", "Россия"];
 						var population = [44.8, 7.1, 79.8, 325.7, 144.5];
 						document.write("<p>1. " + countries[0] + " = " + population[0] + " миллиона;</p>");
 						document.write("<p>2. " + countries[1] + " = " + population[1] + " миллиона;</p>");
@@ -65,14 +65,25 @@
 				<section id="block4">
 					<h2>Задача №4</h2>
 					<script>
-						var fruits = ['Апельсин', 'Банан', 'Груша'];
+						var fruits = ["Апельсин", "Банан", "Груша"];
 						document.write("<p>Кол-во фруктов: " + fruits.length + ";</p>");
-						fruits.push('Яблоко', 'Ананас');
-						fruits.unshift('Грейпфрут');
+						fruits.push("Яблоко", "Ананас");
+						fruits.unshift("Грейпфрут");
 						document.write("<p>Новое кол-во фруктов: " + fruits.length + ";</p>");
 						fruits.pop();
 						fruits.shift();
 						document.write("<p>Осталось фруктов: " + fruits.length + ".</p>");
+					</script>
+				</section>
+				<section id="block5">
+					<h2>Задача №5</h2>
+					<script>
+						var fruits = ["Яблоко", " Апельсин", " Груша", " Гранат"];
+						fruits.splice(length - 2, 1, " Ананас");
+						document.write("<p>" + fruits + "</p>");
+						var fruits = ["Банан", " Мандарин", " Манго"];
+						fruits.splice(length - 2, 1, " Ананас");
+						document.write("<p>" + fruits + "</p>");
 					</script>
 				</section>
 			</div>

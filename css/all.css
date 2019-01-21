@@ -184,6 +184,17 @@ header {
     position: relative;
     margin: 0 auto; }
 
+#block5 {
+  background: #e6f1fa;
+  position: relative;
+  line-height: 1.5;
+  background-color: rgba(33, 238, 162, 0.5);
+  padding: 20px; }
+  #block5 .wrapper {
+    width: 100%;
+    position: relative;
+    margin: 0 auto; }
+
 footer {
   padding: 20px;
   background-color: #65a9df;
