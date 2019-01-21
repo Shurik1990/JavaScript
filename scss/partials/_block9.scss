@@ -1,0 +1,12 @@
+#block9 {
+    background: $block1;
+    position: relative;
+	line-height: 1.5;
+	background-color: $darkblue-transparent;
+	padding: 20px;
+	.wrapper {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+	}
+}
