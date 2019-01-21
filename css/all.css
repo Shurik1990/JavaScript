@@ -132,7 +132,7 @@ header {
   position: relative;
   line-height: 1.5; }
   header .wrapper {
-    width: 900px;
+    width: 100%;
     position: relative;
     margin: 0 auto; }
     header .wrapper h1 {
@@ -147,7 +147,7 @@ header {
   background-color: rgba(237, 238, 33, 0.5);
   padding: 20px; }
   #block1 .wrapper {
-    width: 900px;
+    width: 100%;
     position: relative;
     margin: 0 auto; }
 
@@ -158,7 +158,7 @@ header {
   background-color: rgba(238, 135, 33, 0.5);
   padding: 20px; }
   #block2 .wrapper {
-    width: 900px;
+    width: 100%;
     position: relative;
     margin: 0 auto; }
 
@@ -169,7 +169,18 @@ header {
   background-color: rgba(33, 42, 238, 0.5);
   padding: 20px; }
   #block3 .wrapper {
-    width: 900px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto; }
+
+#block4 {
+  background: #e6f1fa;
+  position: relative;
+  line-height: 1.5;
+  background-color: rgba(238, 33, 184, 0.5);
+  padding: 20px; }
+  #block4 .wrapper {
+    width: 100%;
     position: relative;
     margin: 0 auto; }
 
