@@ -123,12 +123,22 @@
 				<section id="block9">
 					<h2>Задача №9</h2>
 					<script>
-						login = 'Директор';
+						var login = prompt("Ваш логин:", '');
 						var message = (login == 'Вася') ? 'Привет' :
 							(login == 'Директор') ? 'Здравствуйте' :
 							(login == '') ? 'Нет логина' : 
 							'';
+						alert(message);
 						document.write(message);
+					</script>
+				</section>
+				<section id="block10">
+					<h2>Задача №10</h2>
+					<script>
+						var value = prompt('Каково "официальное" название JavaScript?', '');
+						var word = (value == 'ECMAScript') ? 'Верно!':
+							('Не знаете? "ECMAScript"!');
+						document.write(word);
 					</script>
 				</section>
 			</div>
