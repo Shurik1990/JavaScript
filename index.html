@@ -30,11 +30,36 @@
 				<section id="block2">
 					<h2>Задача №2</h2>
 					<script>
-						var days = 365;
-						var planet = 'Земля';
-						var people = '7 млрд.';
-						var sun = 'Солнца';
-						document.write("<p>Мы живем на планете " + planet + ", она делает один оборот вокруг " + sun + " за " + days + " дней. Население нашей планеты составляет примерно " + people + " человек.</p>");
+						var a = 5;
+						var b, c;
+						b = a * 5;
+						b = c = b/2;
+						document.write("<p>b = " + b + "</p>")
+						document.write("<p>c = " + c + "</p>")
+						document.write("<p>Выражения: a * 5 и b = c = b/2. Сначала вычисляется выражение справа, а значение выражения запоминается в функционале языка программирования, переменная слева связывается со значением.</p>");
+						document.write("<p>Бинарный оператор, справа от которого находится выражение с единственным результатом, а слева - переменная, поле объекта или элемент массива. Присваивание также возвращает полученное значение, так что его можно использовать в цепочке. a = b = c = 1 + 2.</p>");
+						document.write("<p>Вычисления будут происходить в зависимости от приоритета, внчале умножение, а потом - деление.</p>");
+					</script>
+					<script>
+						document.write("<h3>Скобки:</h3>");
+						var a = 5;
+						var b, c;
+						b = (a * 5);
+						b = (c = (b/2));
+						document.write("<p>b = " + b + "</p>")
+						document.write("<p>c = " + c + "</p>")
+					</script>
+				</section>
+				<section id="block3">
+					<h2>Задача №3</h2>
+					<script>
+						var countries = ['Украина', 'Болгария', 'Турция', 'США', 'Россия'];
+						var population = [44.8, 7.1, 79.8, 325.7, 144.5];
+						document.write("<p>1. " + countries[0] + " = " + population[0] + " миллиона;</p>");
+						document.write("<p>2. " + countries[1] + " = " + population[1] + " миллиона;</p>");
+						document.write("<p>3. " + countries[2] + " = " + population[2] + " миллиона;</p>");
+						document.write("<p>4. " + countries[3] + " = " + population[3] + " миллиона;</p>");
+						document.write("<p>5. " + countries[4] + " = " + population[4] + " миллиона;</p>");
 					</script>
 				</section>
 			</div>

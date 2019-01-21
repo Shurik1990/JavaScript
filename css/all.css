@@ -127,7 +127,6 @@ section {
   font-weight: 300;
   font-style: normal; }
 header {
-  width: 100%;
   background-color: rgba(47, 221, 75, 0.5);
   overflow: visible;
   position: relative;
@@ -142,7 +141,6 @@ header {
       font-size: 24px; }
 
 #block1 {
-  width: 100%;
   background: #e6f1fa;
   position: relative;
   line-height: 1.5;
@@ -154,7 +152,6 @@ header {
     margin: 0 auto; }
 
 #block2 {
-  width: 100%;
   background: #e6f1fa;
   position: relative;
   line-height: 1.5;
@@ -165,8 +162,18 @@ header {
     position: relative;
     margin: 0 auto; }
 
+#block3 {
+  background: #e6f1fa;
+  position: relative;
+  line-height: 1.5;
+  background-color: rgba(33, 42, 238, 0.5);
+  padding: 20px; }
+  #block3 .wrapper {
+    width: 900px;
+    position: relative;
+    margin: 0 auto; }
+
 footer {
-  width: 100%;
   padding: 20px;
   background-color: #65a9df;
   position: relative;
